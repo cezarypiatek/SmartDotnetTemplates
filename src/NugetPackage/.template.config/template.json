@@ -1,0 +1,33 @@
+{
+    "$schema": "http://json.schemastore.org/template",
+    "author": "Cezary Piątek",
+    "classifications": ["SmartDotnetTemplates", "Library", "NuGet"],
+    "name": "NuGet Package ",
+    "description": "Simple project for creating library and publishing it as a NuGet package.",
+    "groupIdentity": "SmartDotnetTemplates",
+    "identity": "SmartDotnetTemplates.Nuget",
+    "shortName": "nuget",
+    "defaultName": "NuGetPackage1",
+    "tags": {
+      "language": "C#",
+      "type": "solution"
+    },
+    "sourceName": "PackageName",
+    "preferNameDirectory": false,
+    "symbols": {
+      "Description": {
+        "type": "parameter",
+        "datatype": "string",
+        "defaultValue": "Project Description",
+        "replaces": "PackageDescription",
+        "description": "A description of the project which determines the NuGet package description and assembly description."
+      },
+      "Author": {
+        "type": "parameter",
+        "datatype": "string",
+        "defaultValue": "Project Author",
+        "replaces": "AuthorName",
+        "description": "The name of the author of the project which determines the NuGet package author, assembly author, company and copyright information."
+      }
+    }
+  }
