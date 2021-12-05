@@ -1,0 +1,9 @@
+<Project>
+  <PropertyGroup>
+    <Nullable>enable</Nullable>
+    <LangeVersion>10.0</LangeVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="$(MSBuildThisFileDirectory)\.editorconfig" Link=".editorconfig"/>
+  </ItemGroup>
+</Project>
